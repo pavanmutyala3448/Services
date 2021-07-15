@@ -1,0 +1,29 @@
+.Services-Page {
+  max-width: 100%;
+  height: 25em;
+  background-image: url("https://images.unsplash.com/photo-1577812581856-748375d2385d?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTd8fG1vdW50YWlufGVufDB8MHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 3em;
+}
+.Services-Page h1 {
+  color: #fff;
+}
+.row {
+  margin: 5em auto;
+}
+.row:nth-child(even) .leftSection {
+  order: 2;
+}
+@media (max-width: 1200px) {
+  .row:nth-child(even) .leftSection {
+    order: 2;
+  }
+}
+@media (max-width: 800px) {
+  .row:nth-child(even) .leftSection {
+    order: 0;
+  }
+}
